@@ -52,6 +52,12 @@ a{
     margin: auto;
 }
 
+.blogContainer{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: auto;
+}
+
 .img-fluid{
     width: 100%;
 }
@@ -208,6 +214,7 @@ a{
 
 .nav-link:hover{
     color: var(--primary-color);
+    border-bottom: 2px solid #f5ba09;
 }
 
 .search-box{
@@ -241,6 +248,10 @@ a{
 }
 
 #posts{
+    margin-bottom: 5em;
+}
+
+#blog{
     margin-bottom: 5em;
 }
 

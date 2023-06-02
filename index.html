@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gridy Blog</title>
+    <title>REBEL SCRIBES</title>
 
     <!-- font awesome icons cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
@@ -18,43 +18,45 @@
 <body>
     
     <!-- Header -->
-       <header id="header" class="shadow bg-light">
-           <nav class="container navbar">
-               <a href="/index.html" class="nav-brand text-dark">
-                    Gridy
-                </a>
-
-                <!-- toggle button -->
-                <button class="toggle-button">
-                    <span><i class="fas fa-bars"></i></span>
-                </button>
-
-                <!-- collapse on toggle button click -->
-                <div class="collapse">
-                    <ul class="navbar-nav">
-                        <a href="#" class="nav-link">Home</a>
-                        <a href="#" class="nav-link">Blog</a>
-                        <a href="#" class="nav-link">Pages</a>
-                        <a href="#" class="nav-link">Categories</a>
-                        <a href="#" class="nav-link">About</a>
-                        <a href="#" class="nav-link">Contact</a>
-                    </ul>
+    <header id="header" class="shadow bg-light">
+        <nav class="container navbar">
+                <div class="author-avatar">
+                    <img src="./assets/face/face1.png" class="rounded" alt="">
                 </div>
+            <a href="#" class="nav-brand text-dark">
+             REBEL SCIBES
+             </a>
+
+             <!-- toggle button -->
+             <button class="toggle-button">
+                 <span><i class="fas fa-bars"></i></span>
+             </button>
+
+             <!-- collapse on toggle button click -->
+             <div class="collapse">
+                 <ul class="navbar-nav">
+                     <a href="#" class="nav-link">Home</a>
+                     <a href="#blog" class="nav-link">Blog</a>
+                     <a href="#blog" class="nav-link">Pages</a>
+                     <a href="#sidebar" class="nav-link">Categories</a>
+                     <a href="#footer" class="nav-link">About</a>
+                     <a href="#footer" class="nav-link">Contact</a>
+                 </ul>
+             </div>
 
                   <!-- collapse on toggle button click -->
                   <div class="collapse">
-                      <ul class="navbar-nav">
-                            <div class="search-box">
-                                <a href="#" class="nav-link"><i class="fas fa-search"></i></a>
-                            </div>
-                            <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
-                            <a href="#" class="nav-link"><i class="fab fa-instagram"></i></a>
-                            <a href="#" class="nav-link"><i class="fab fa-dribbble"></i></a>
-                      </ul>
-                  </div>
-           </nav>
-       </header>
+                    <ul class="navbar-nav">
+                          <div class="search-box">
+                              <a href="#" class="nav-link"><i class="fas fa-search"></i></a>
+                          </div>
+                          <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                          <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+                          <a href="#" class="nav-link"><i class="fab fa-instagram"></i></a>                   
+                    </ul>
+                </div>
+         </nav>
+     </header>
     <!-- .Header -->
 
     <!-- Main Site -->
@@ -62,9 +64,38 @@
 
             <!-- Blog Post Section -->
                 <section id="posts">
+                    <aside id="sidebar" class="px-1">
+
+                        <!-- categories -->
+                        <section class="categories">
+                            <h2 class="text-center text-dark">Categories</h2>
+
+                            <a href="#blog" class="d-flex justify-content-between text-dark">
+                                <span>Technology</span>
+                                <span>8</span>
+                            </a>
+                            <a href="#" class="d-flex justify-content-between text-dark">
+                                <span>Design</span>
+                                <span>5</span>
+                            </a>
+                            
+                            <a href="#" class="d-flex justify-content-between text-dark">
+                                <span>Talks</span>
+                                <span>3</span>
+                            </a>
+                            <a href="#" class="d-flex justify-content-between text-dark">
+                                <span>Fitness</span>
+                                <span>2</span>
+                            </a>
+                        </section>
+                    </aside>
                     <div class="container">
                         <div class="grid">
+                            <a href="#post">
+                                
+                            </a>
                             <!-- article -->
+                            
                                 <div class="grid-item">
                                     <article class="article">
                                         <div class="card">
@@ -75,210 +106,326 @@
                                             </div>
                                             <div class="card-body text-center px-1">
                                                 <a href="#" class="text-title display-1 text-dark">
-                                                    Looking for some feedback for this rejected track
-                                                    technology
+                                                    Farming for the Future: Power, Ethics, challenges of AI in Agriculture
                                                 </a>
                                                 <p class="secondary-title text-secondary display-3">
-                                                    <span><i class="far fa-clock text-primary"></i> Clock Wed 02, 2021</span>
-                                                    <span><i class="far fa-comments text-primary"></i> 12</span>
+                                                    <span><i class="far fa-clock text-primary"></i> Clock Thurs 01, 2023</span>
+                                                    <span><i class="far fa-comments text-primary"></i> 3</span>
                                                 </p>
                                             </div>
                                         </div>
                                     </article>
                                 </div>
                             <!-- .article -->
-                            <!-- article -->
-                                <div class="grid-item">
-                                <article class="article">
-                                    <div class="card">
-                                        <div class="overflow-img">
-                                            <a href="#">
-                                                <img src="./assets/img2.jpg" class="img-fluid" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="card-body text-center px-1">
-                                            <a href="#" class="text-title display-1 text-dark">
-                                                Looking for some feedback for this rejected track
-                                                technology
-                                            </a>
-                                            <p class="secondary-title text-secondary display-3">
-                                                <span><i class="far fa-clock text-primary"></i> Clock Wed 02, 2021</span>
-                                                <span><i class="far fa-comments text-primary"></i> 12</span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </article>
-                                </div>
-                            <!-- .article -->
-                            <!-- article -->
-                            <div class="grid-item">
-                                <article class="article">
-                                    <div class="card">
-                                        <div class="overflow-img">
-                                            <a href="#">
-                                                <img src="./assets/img3.jpg" class="img-fluid" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="card-body text-center px-1">
-                                            <a href="#" class="text-title display-1 text-dark">
-                                                Looking for some feedback for this rejected track
-                                                technology
-                                            </a>
-                                            <p class="secondary-title text-secondary display-3">
-                                                <span><i class="far fa-clock text-primary"></i> Clock Wed 02, 2021</span>
-                                                <span><i class="far fa-comments text-primary"></i> 12</span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-                         <!-- .article -->
-                            <!-- article -->
-                            <div class="grid-item">
-                                <article class="article">
-                                    <div class="card">
-                                        <div class="overflow-img">
-                                            <a href="#">
-                                                <img src="./assets/img4.jpg" class="img-fluid" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="card-body text-center px-1">
-                                            <a href="#" class="text-title display-1 text-dark">
-                                                Looking for some feedback for this rejected track
-                                                technology
-                                            </a>
-                                            <p class="secondary-title text-secondary display-3">
-                                                <span><i class="far fa-clock text-primary"></i> Clock Wed 02, 2021</span>
-                                                <span><i class="far fa-comments text-primary"></i> 12</span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-                         <!-- .article -->
-                            <!-- article -->
-                            <div class="grid-item">
-                                <article class="article">
-                                    <div class="card">
-                                        <div class="overflow-img">
-                                            <a href="#">
-                                                <img src="./assets/img5.jpg" class="img-fluid" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="card-body text-center px-1">
-                                            <a href="#" class="text-title display-1 text-dark">
-                                                Looking for some feedback for this rejected track
-                                                technology
-                                            </a>
-                                            <p class="secondary-title text-secondary display-3">
-                                                <span><i class="far fa-clock text-primary"></i> Clock Wed 02, 2021</span>
-                                                <span><i class="far fa-comments text-primary"></i> 12</span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-                         <!-- .article -->
-                            <!-- article -->
-                            <div class="grid-item">
-                                <article class="article">
-                                    <div class="card">
-                                        <div class="overflow-img">
-                                            <a href="#">
-                                                <img src="./assets/img6.jpg" class="img-fluid" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="card-body text-center px-1">
-                                            <a href="#" class="text-title display-1 text-dark">
-                                                Looking for some feedback for this rejected track
-                                                technology
-                                            </a>
-                                            <p class="secondary-title text-secondary display-3">
-                                                <span><i class="far fa-clock text-primary"></i> Clock Wed 02, 2021</span>
-                                                <span><i class="far fa-comments text-primary"></i> 12</span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-                         <!-- .article -->
-                            <!-- article -->
-                            <div class="grid-item">
-                                <article class="article">
-                                    <div class="card">
-                                        <div class="overflow-img">
-                                            <a href="#">
-                                                <img src="./assets/img7.jpg" class="img-fluid" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="card-body text-center px-1">
-                                            <a href="#" class="text-title display-1 text-dark">
-                                                Looking for some feedback for this rejected track
-                                                technology
-                                            </a>
-                                            <p class="secondary-title text-secondary display-3">
-                                                <span><i class="far fa-clock text-primary"></i> Clock Wed 02, 2021</span>
-                                                <span><i class="far fa-comments text-primary"></i> 12</span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-                         <!-- .article -->
-                            <!-- article -->
-                            <div class="grid-item">
-                                <article class="article">
-                                    <div class="card">
-                                        <div class="overflow-img">
-                                            <a href="#">
-                                                <img src="./assets/img8.jpg" class="img-fluid" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="card-body text-center px-1">
-                                            <a href="#" class="text-title display-1 text-dark">
-                                                Looking for some feedback for this rejected track
-                                                technology
-                                            </a>
-                                            <p class="secondary-title text-secondary display-3">
-                                                <span><i class="far fa-clock text-primary"></i> Clock Wed 02, 2021</span>
-                                                <span><i class="far fa-comments text-primary"></i> 12</span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-                         <!-- .article -->
-                            <!-- article -->
-                            <div class="grid-item">
-                                <article class="article">
-                                    <div class="card">
-                                        <div class="overflow-img">
-                                            <a href="#">
-                                                <img src="./assets/img9.jpg" class="img-fluid" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="card-body text-center px-1">
-                                            <a href="#" class="text-title display-1 text-dark">
-                                                Looking for some feedback for this rejected track
-                                                technology
-                                            </a>
-                                            <p class="secondary-title text-secondary display-3">
-                                                <span><i class="far fa-clock text-primary"></i> Clock Wed 02, 2021</span>
-                                                <span><i class="far fa-comments text-primary"></i> 12</span>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-                         <!-- .article -->
-                        </div>
 
+                        
+                        </div>
+                        
                         <div class="text-center">
                             <button class="btn btn-primary secondary-title text-light">Load More Posts...</button>
                         </div>
                     </div>
                 </section>
+
             <!-- .Blog Post Section -->
+
+            <!-- Post Content -->
+            <section id="blogContainer">
+                <div class="blogContainer">
+                <article id="blog">
+                    <h2 class="text-center text-dark">Blog</h2>
+                    <!-- article heading -->
+                    <div class="headings text-center">
+                        <div class="category">
+                            <a href="#" class="nav-link">Technology/AI</a>
+                        </div>
+
+                        <div class="title">
+                            <h2 class="text-title text-dark display-1">Farming for the Future: Power, Ethics, challenges of AI in Agriculture</h2>
+                        </div>
+
+                        <div class="meta">
+                            <a href="#" class="link display-2 text-secondary px-1">
+                                <i class="fas fa-user text-primary"></i> Rebal Mallick
+                            </a>
+                            <a href="#" class="link display-2 text-secondary px-1">
+                                <i class="fas fa-clock text-primary"></i>  Clock Thurs 01, 2023
+                            </a>
+                            <a href="#" class="link display-2 text-secondary px-1">
+                                <i class="fas fa-comments text-primary"></i> 3
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <!-- thumbnail  -->
+                    <div class="thumbnail mt-3">
+                        <img src="./assets/img1.jpg" class="thumbnail" alt="">
+                    </div>
+
+                    <!-- content -->
+                    <div class="content text-dark display-2 secondary-title mt-3">
+                        
+                        <p> >>> Artificial Intelligence (AI) has made some incredible strides lately with its mass popularity 
+                            growing due to ChatGPT by Open AI. This has caused many industries to revaluate the possibilities
+                            of AI and look further into integration. That’s right ‘further' as in have already been looking at AI 
+                            integration, an example of such an industry is Agriculture. The agriculture industry is the frontrunner
+                            when it comes to embracing advancing technology. They do this to ensure efficient operation, productive 
+                            output of crops and build a sustainable practice for future generations. Yet, these goals are becoming
+                            harder to achieve for the current agricultural production system due to “population growth, shrinking farmland,
+                            dwindling natural resources, erratic climate changes, and shifting market demands”. For instance, according to the 
+                            Food and Agriculture Organization of the United Nations by 2050 the world’s population will reach over 9 billion which 
+                            creates an urgency to develop the agriculture industry (Liu Simon). The integration of Artificial intelligence (AI) in agriculture 
+                            holds promise in addressing these challenges by analyzing data and making predictions of future conditions to help eliminate issues 
+                            brought about by pest infection, low crop yield, droughts, and climate change. However, it is crucial to examine the ethical and 
+                            social implications of AI in Agriculture instead of jumping on the AI trend due to ChatGPT. You see unlike ethical issues of students 
+                            using ChatGPT for cheating, the implications of AI in Agriculture are much greater as it influences food and farmers, 
+                            which are vital for the food we consume daily. In this blog post, with my background in Computer Science and with the help of academic 
+                            sources will explore how AI in Agriculture interacts with ethical and social issues and why it is essential to address classification, 
+                            fairness, and job displacement in the context of AI as it continues to grow. 
+
+                        </p>
+                        <h4>The Power of AI in Agriculture:</h4>
+                        <p>Artificial intelligence (AI) makes use of machine learning algorithms such as neural networks, and decision trees to compile data and
+                            make predictions of future conditions. This is facilitated by a large amount of data about crops and soil conditions continuously gathered 
+                            by the advancement in computers, the use of satellite imagery, and remote sensing technology since the 1990s. This large collection of data 
+                            allowed for the development of machine learning algorithms designed for agriculture leading to AI in Agriculture. The power of AI in 
+                            agriculture can be seen in the Indian state of Andhra Pradesh, where Microsoft Corporation is working with farmers and providing advisory 
+                            services through AI-based sowing applications. This AI application recommends sowing data, methods of cultivable land preparation, seed 
+                            treatment, soil analysis and more to suggest optimization for farming crops. Through this understanding provided farmers found a 30% 
+                            increase in average crop yield per ha (2.471 acres).  The AI-based sowing approach is based on data recognizing optimal sowing performance 
+                            in various seasons and climatic conditions using Moisture Adequacy Data(MAI) (Dharmaraj, V. and Vijayanand, C). Although AI adoption in 
+                            Agriculture presents opportunities in agriculture, there are some challenges and issues that slow its process. Such as the large amount of 
+                            data required for training machines to take precise forecasting. However, this issue is one that the agriculture industry is continuing to 
+                            improve daily. Therefore, it is important to take this time to look at the ethical implications of AI in Agriculture.
+                        </p>
+                        <h4>Ethical and Social Issues in AI Agriculture:</h4>
+                        <p>Classification and fairness are crucial to consider as AI is intergraded into agriculture as it can cause job displacement for farmers. 
+                            Classification forms the foundation of AI systems in agriculture as it enables the application to provide recommendations for planting, 
+                            pest management, crop health and more. It is the process where data is put through a process of identifying patterns and categorizing 
+                            this information to build the model for the AI algorithm. Yet, this process of identifying data can introduce errors and biases into 
+                            classification due to choices made regarding the training data, attributes used by the algorithm, and a class of definitions. It is 
+                            vital to ensure that data used to train the AI model comes from a diverse range of farmers and crops instead of just Western origins
+                            to prevent discrimination and promote fairness in agriculture. You see the lack of diversity in data can cause the AI to make biased
+                            decisions that favor larger agricultural enterprises putting smaller-scale farmers at a disadvantage. Or it can cause the issue of 
+                            discrimination against other agricultural practices due lack of data to be trained on during the classification process resulting in
+                            the AI forming a skewed stance. For example, the three-sister garden practice used by the indigenous community, which uses the concept of 
+                            relationship shared by corn, squash, and beans to maximize the growth of crops (Cornell University) may be disregarded by the AI. 
+                            If not handled correctly this can lead to the ethical and social issue of job displacement and de-skilling workers.
+                        </p>
+                        <h4>Lessons from Similar Contexts:</h4>
+                        <p>To gain an understanding of the impact of biases and job displacement issues, we can draw lessons from other domains. For instance, the 
+                            COMPAS algorithm, in the criminal justice system, which aimed to predict recidivism risk for judges, was found to exhibit biases against 
+                            individuals of colour. Black defendants were predicted to re-offend 45 percent more than their white counterparts of 23 percent 
+                            (Jeff Larson, Surya Mattu, Lauren Kirchner, and Julia Angwin). This bias stemmed from the input data used for training the COMPAS classification 
+                            process, highlighting the need for unbiased data and diverse stakeholder involvement in AI Agriculture systems. Another case that illustrates the 
+                            impact of the advancement of technology on job displacement is Expert system automation. This case of automation resulted in de-skilling and alienating 
+                            workers during the industrial revolution. The introduction of these automation systems where workers have no control caused workers to feel “disembodied 
+                            and reembodied as machines”(Tavani, pg. 282-3) and resulted in a disconnect in the relationship between workers and the workplace. This is why it is 
+                            important to include farmers during the development of AI in agriculture. These cases demonstrate the need to consider any biases in the data set and 
+                            avoid them as it can result in a comparable consequence on farmers as well as involving farmers in the process to insure fairness. 
+                        </p>
+                        <h4>Addressing the Ethical Challenges:</h4>
+                        <p>We must take proactive steps to overcome the ethical and social challenges brought by AI in agriculture. A need for diverse stakeholders to participate in 
+                            this process is required to develop a fair AI system that ensures an equal relationship with farms rather than replacing farmers. This entails that we 
+                            include small-scale farmers, large-scale farmers, different agricultural origins, and even consumers. By taking this diverse pool of stakeholders we can 
+                            ensure that the training data for the AI is fair and unbiased as it meets the needs of all stakeholders. This also means that we must upskill the farmers 
+                            in the AI system to ensure that they are able to understand the decisions made by the AI system. This allows for job security and enables trust and 
+                            fairness for Farmers allowing for the acceptance of artificial intelligence in agriculture.
+                        </p>
+                        <p>AI's potential to evolve the industry is massive as it allows the optimization of crops and ensures informed decisions. This means we must not overlook 
+                            the ethical and social implications of AI applications in agriculture. We can utilize the power of AI while protecting the interest of farmers and 
+                            society by managing classification biases through diverse stakeholders. So as AI advances, let us strive for a more diverse and fair practice in agriculture. <<<
+                        </p>
+                        <h4>WorkCited:</h4>
+                        <p>Abderahman Rejeb, Karim Rejeb, Suhaiza Zailani, John G. Keogh, Andrea Appolloni, Examining the interplay between artificial intelligence and the agri-food industry, Artificial Intelligence in Agriculture, vol. 6, 2022, pp 111-128, ISSN 2589-7217, 
+                            https://doi.org/10.1016/j.aiia.2022.08.002.
+                            (https://www.sciencedirect.com/science/article/pii/S2589721722000095)
+                        </p>
+
+                        <p>
+                            Dharmaraj, V. and Vijayanand, C. 2018. Artificial Intelligence (AI) in Agriculture. 
+                            Int.J.Curr.Microbiol.App.Sci. 7(12): 2122-2128. doi: https://doi.org/10.20546/ijcmas.2018.712.241
+                        </p>
+                        
+                        <p>
+                            Larson, Jeff, et al. “How We Analyzed the Compas Recidivism Algorithm.” ProPublica, 23 May 2016, www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm. 
+                        </p>
+                       
+                        <p>
+                            Liu, Simon Y. “Artificial Intelligence (AI) in Agriculture.” IT Professional, vol. 22, no. 3, 2020, pp. 14–15, https://doi.org/10.1109/mitp.2020.2986121. 
+                        </p>
+                        
+                        <p>
+                            Mallick, Rebal. “Ethical Issues with AI in Agriculture .” York University, pp. 1–6. 
+                        </p>
+                        <p>
+                            University, Cornell. The Science Behind the Three Sisters. Cornell Cast, https://www.cornell.edu/video/first-peoples-first-crops-4-the-science-behind-the-three-sisters. Accessed 27 May 2023. 
+                        </p>
+                    
+                    </div>
+                </div>
+                    
+                </article>
+
+                <!-- post footer -->
+                <div class="post-footer mb-3">
+                    
+                    <div class="post-tags d-flex flex-wrap justify-content-center">
+                        <a href="#" class="nav-link btn bg-light">Techonogy</a>
+                        <a href="#" class="nav-link btn bg-light">Food</a>
+                        <a href="#" class="nav-link btn bg-light">Fitness</a>
+                        <a href="#" class="nav-link btn bg-light">Travel</a>
+                        <a href="#" class="nav-link btn bg-light">ChatGPT</a>
+                        <a href="#" class="nav-link btn bg-light">Agriculture</a>
+                        <a href="#" class="nav-link btn bg-light">AI</a>
+                    </div>
+
+                    <div class="post-author text-center">
+                        <div class="author-avatar">
+                            <img src="./assets/face/face1.png" class="rounded" alt="">
+                        </div>
+
+                        <div class="author-info py-2">
+                            <h3 class="text-dark">Rebal Mallick</h3>
+
+                            <p class="text-secondary secondary-title">
+                                Computer science student who is interesting in the Impacts of Technology around us!
+                            </p>
+
+                            <div class="post-tags d-flex flex-wrap justify-content-center">
+                                <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="nav-link"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- post related -->
+                    <div class="post-realted py-2">
+                        <div class="row justify-content-center">
+                            <div class="prev">
+                                <div class="py-2">
+                                    <a href="#" class="display-2 text-dark">
+                                        <i class="fas fa-chevron-left"></i> 
+                                        Previous Post
+                                    </a>
+                                </div>
+                                <article class="article text-center">
+                                    <div class="d-flex">
+                                        <a href="#">
+                                            <img src="./assets/img9.jpg" class="object-fit" alt="">
+                                        </a>
+                                        <div class="cart-body px-1">
+                                            <div class="category">
+                                                <a href="#" class="link text-primary text-secondary">Talks</a>
+                                            </div>
+                                            <a href="#" class="text-title display-1 text-dark">
+                                                When constent is not enough...
+                                            </a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="next text-right">
+                                <div class="py-2">
+                                    <a href="#" class="display-2 text-dark">
+                                        Next Post 
+                                        <i class="fas fa-chevron-right"></i> 
+                                    </a>
+                                </div>
+                                <article class="article text-center">
+                                    <div class="d-flex">
+                                        <div class="cart-body px-1">
+                                            <div class="category">
+                                                <a href="#" class="link text-primary text-secondary">Technology</a>
+                                            </div>
+                                            <a href="#" class="text-title display-1 text-dark">
+                                                AI is Human?
+                                            </a>
+                                        </div>
+                                        <a href="#">
+                                            <img src="./assets/img8.jpg" class="object-fit" alt="">
+                                        </a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post-comments py-2">
+                        <h3 class="text-center display-1 secondary-title py-2">3 Comments</h3>
+
+                        <div class="comment-details">
+                            <div class="comment-item py-2">
+                                <div class="d-flex">
+                                    <div class="avatar px-2">
+                                        <img src="./assets/face/face1.png" class="rounded" alt="">
+                                    </div>
+                                    <div class="comment-content">
+                                        <h5 class="display-2 m-0">Rebal Mallick</h5>
+                                        <p class="title-secondary text-dark">
+                                            I had fun writing this post, let me if you have any questions or conerns below. What
+                                            are your throughts on AI in Agriculture?
+                                        </p>
+                                    </div>
+                                </div>
+                                 <!-- comment reply -->
+                                 <div class="reply py-2">
+                                    <div class="d-flex">
+                                        <div class="avatar px-2">
+                                            <img src="./assets/face/face2.jpg" class="rounded" alt="">
+                                        </div>
+                                        <div class="comment-content">
+                                            <h5 class="display-2 m-0">Brandon guil</h5>
+                                            <p class="title-secondary text-dark">
+                                                This post was a great read! Thank your for sharing. This makes me wonder how fast AI will take over industries
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="comment-item py-2">
+                                <div class="d-flex">
+                                    <div class="avatar px-2">
+                                        <img src="./assets/face/face3.png" class="rounded" alt="">
+                                    </div>
+                                    <div class="comment-content">
+                                        <h5 class="display-2 m-0">Adu Kdu</h5>
+                                        <p class="title-secondary text-dark">
+                                            Wow, your blog post is impressive! I appriciate you providing a work cited for
+                                            the sources.
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3 class="text-center display-1 secondary-title py-2">Leave Comment</h3>
+
+                        <div class="comment-form">
+                            <div class="d-flex justify-content-between flex-wrap">
+                                <input type="text" class="form-control " placeholder="Name">
+                                <input type="email" class="form-control" placeholder="Email">
+                                <input type="text" class="form-control" placeholder="Website">
+                            </div>
+                            <textarea class="form-control mt-3" placeholder="Message" rows="10"></textarea>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary display-2 text-light mt-2">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- .post footer -->
+
+            </section>
+        <!-- .Post Content -->
+
+
 
             <!-- Swiper slider -->
                 <section class="slider">
@@ -290,46 +437,46 @@
                                 <div class="swiper-wrapper">
                                     <!-- Slides -->
                                     <div class="swiper-slide">
-                                        <a href="#">
+                                        <a href="#blog">
                                             <img src="./assets/slider/img1.jpg" class="img-fluid" alt="">
                                         </a>
                                     </div>
                                      <!-- Slides -->
                                       <!-- Slides -->
                                     <div class="swiper-slide">
-                                        <a href="#">
+                                        <a href="#blog">
                                             <img src="./assets/slider/img2.jpg" class="img-fluid" alt="">
                                         </a>
                                     </div>
                                      <!-- Slides -->
                                       <!-- Slides -->
                                     <div class="swiper-slide">
-                                        <a href="#">
+                                        <a href="#blog">
                                             <img src="./assets/slider/img3.jpg" class="img-fluid" alt="">
                                         </a>
                                     </div>
                                         <!-- Slides -->
                                              <!-- Slides -->
                                     <div class="swiper-slide">
-                                        <a href="#">
+                                        <a href="#blog">
                                             <img src="./assets/slider/img4.jpg" class="img-fluid" alt="">
                                         </a>
                                     </div>
                                         <!-- Slides -->
                                         <div class="swiper-slide">
-                                            <a href="#">
+                                            <a href="#blog">
                                                 <img src="./assets/slider/img5.jpg" class="img-fluid" alt="">
                                             </a>
                                         </div>
                                             <!-- Slides -->
                                             <div class="swiper-slide">
-                                                <a href="#">
+                                                <a href="#blog">
                                                     <img src="./assets/slider/img6.jpg" class="img-fluid" alt="">
                                                 </a>
                                             </div>
                                                 <!-- Slides -->
                                                 <div class="swiper-slide">
-                                                    <a href="#">
+                                                    <a href="#blog">
                                                         <img src="./assets/slider/img7.jpg" class="img-fluid" alt="">
                                                     </a>
                                                 </div>
@@ -346,106 +493,108 @@
     <!-- .Main Site -->
 
     <!-- footer -->
-       <footer id="footer">
-           <div class="container">
-               <div class="row mb-3">
-                   <div class="col-3">
-                       <h2 class="footer-title secondary-title">About Us</h2>
+    <footer id="footer">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col-3">
+                    <h2 class="footer-title secondary-title">About Us</h2>
 
-                       <div class="secondary-title text-secondary">
-                            <p class="mt-2 ">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                                Deserunt quis voluptate alias illum modi tenetur, iste voluptatem illo. Accusantium, corrupti!
-                            </p>
-                            
-                            <address>
-                                <i class="fas fa-map-marker-alt text-primary"></i> 
-                                5 South Main Street Los Angeles, ZZ-96110 USA
-                            </address>
+                    <div class="secondary-title text-secondary">
+                         <p class="mt-2 ">
+                             Search for Answers starts with Reading, and ends with Questions - Rebal Mallick. This is what
+                             the site is based on!
+                         </p>
+                         
+                         <address>
+                             <i class="fas fa-map-marker-alt text-primary"></i> 
+                             3099 One Street, ImaginationCity, L232L22
+                         </address>
 
-                            <div class="phone">
-                                <i class="fas fa-mobile text-primary"></i> 
-                                125-896-485
-                            </div>
+                         <div class="phone">
+                             <i class="fas fa-mobile text-primary"></i> 
+                             647-Rebel-Scribs
+                         </div>
 
-                            <div class="email">
-                                <i class="fas fa-envelope text-primary"></i> 
-                                dailysupport@gmail.com
-                            </div>
+                         <div class="email">
+                             <i class="fas fa-envelope text-primary"></i> 
+                             rebelScibs@info.ca
+                         </div>
 
-                       </div>
-                   </div>
-                   <div class="col-3">
-                       <h2 class="footer-title secondary-title">Feature Post</h2>
+                    </div>
+                </div>
+                <div class="col-3">
+                 
+                    <h2 class="footer-title secondary-title">Feature Post</h2>
 
-                       <div class="feature-post">
-                           <div class="flex-item">
-                               <article class="article">
-                                   <div class="d-flex">
-                                       <a href="#">
-                                           <img src="./assets/img9.jpg" class="object-fit px-1" alt="">
-                                           <div class="px-1">
-                                               <a href="#" class="text-title display-2 text-dark">
-                                                Looking for some feedback for this rejected track
-                                                technology
-                                               </a>
-                                               <p class="secondary-title text-secondary display-3">
-                                                    <span><i class="far fa-clock text-primary"></i> Clock Wed 02, 2021 </span>
-                                               </p>
-                                           </div>
-                                       </a>
-                                   </div>
-                               </article>
-                           </div>
-                           <div class="flex-item">
+                    <div class="feature-post">
+                        <div class="flex-item">
                             <article class="article">
                                 <div class="d-flex">
                                     <a href="#">
-                                        <img src="./assets/img1.jpg" class="object-fit px-1" alt="">
+                                        <img src="./assets/img9.jpg" class="object-fit px-1" alt="">
                                         <div class="px-1">
                                             <a href="#" class="text-title display-2 text-dark">
-                                             Looking for some feedback for this rejected track
-                                             technology
+                                             When constent is not enough...
                                             </a>
                                             <p class="secondary-title text-secondary display-3">
-                                                 <span><i class="far fa-clock text-primary"></i> Clock Wed 02, 2021 </span>
+                                                 <span><i class="far fa-clock text-primary"></i> Clock Wed 02, 2023 </span>
                                             </p>
                                         </div>
                                     </a>
                                 </div>
                             </article>
+                        </div>
+                        <div class="flex-item">
+                         <article class="article">
+                             <div class="d-flex">
+                                 <a href="#">
+                                     <img src="./assets/img1.jpg" class="object-fit px-1" alt="">
+                                     <div class="px-1">
+                                         <a href="#" class="text-title display-2 text-dark">
+                                          AI is Human?
+                                         </a>
+                                         <p class="secondary-title text-secondary display-3">
+                                              <span><i class="far fa-clock text-primary"></i> Clock Wed 02, 2023 </span>
+                                         </p>
+                                     </div>
+                                 </a>
                              </div>
-                             <div class="flex-item">
-                                <article class="article">
-                                    <div class="d-flex">
-                                        <a href="#">
-                                            <img src="./assets/img2.jpg" class="object-fit px-1" alt="">
-                                            <div class="px-1">
-                                                <a href="#" class="text-title display-2 text-dark">
-                                                 Looking for some feedback for this rejected track
-                                                 technology
-                                                </a>
-                                                <p class="secondary-title text-secondary display-3">
-                                                     <span><i class="far fa-clock text-primary"></i> Clock Wed 02, 2021 </span>
-                                                </p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </article>
-                            </div>
-                       </div>
-                   </div>
+                         </article>
+                          </div>
+                          <div class="flex-item">
+                             <article class="article">
+                                 <div class="d-flex">
+                                     <a href="#">
+                                         <img src="./assets/img12.jpg" class="object-fit px-1" alt="">
+                                         <div class="px-1">
+                                             <a href="#" class="text-title display-2 text-dark">
+                                              Farming for the Future: Power, Ethics, challenges of AI in Agriculture
+                                             </a>
+                                             <p class="secondary-title text-secondary display-3">
+                                                  <span><i class="far fa-clock text-primary"></i> Clock Thurss 01, 2023 </span>
+                                             </p>
+                                         </div>
+                                     </a>
+                                 </div>
+                             </article>
+                         </div>
+                    </div>
+                </div>
                    <div class="col-3">
                         <h2 class="footer-title secondary-title">Tags</h2>
 
                         <div class="tags">
+                        <section id = "tags">
                             <div class="d-flex flex-wrap">
-                                <a href="#" class="nav-link btn bg-light">Travel</a>
-                                <a href="#" class="nav-link btn bg-light">Food</a>
-                                <a href="#" class="nav-link btn bg-light">Lifestyle</a>
                                 <a href="#" class="nav-link btn bg-light">Techonogy</a>
-                                <a href="#" class="nav-link btn bg-light">Fashion</a>
+                                <a href="#" class="nav-link btn bg-light">Food</a>
+                                <a href="#" class="nav-link btn bg-light">Fitness</a>
+                                <a href="#" class="nav-link btn bg-light">Travel</a>
+                                <a href="#" class="nav-link btn bg-light">ChatGPT</a>
+                                <a href="#" class="nav-link btn bg-light">Agriculture</a>
+                                <a href="#" class="nav-link btn bg-light">AI</a>
                             </div>
+                        </section>
                         </div>
 
                         <h2 class="footer-title secondary-title mt-2">Social</h2>
@@ -455,7 +604,7 @@
                                 <a href="#" class="nav-link btn bg-light"><i class="fab fa-facebook-f"></i></a>
                                 <a href="#" class="nav-link btn bg-light"><i class="fab fa-twitter"></i></a>
                                 <a href="#" class="nav-link btn bg-light"><i class="fab fa-instagram"></i></a>
-                                <a href="#" class="nav-link btn bg-light"><i class="fab fa-dribbble"></i></a>
+                                <a href="#" class="nav-link btn bg-light"><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
 
@@ -464,13 +613,13 @@
 
                <!-- copyrights  -->
                <div class="copyrights">
-                   <p class="text-center text-secondary display-2">
-                        © 2021 <a href="#" class="text-primary">Dailytuition</a> - Personal Blog Theme. All rights reserved.
-                   </p>
-               </div>
-           </div>
-       </footer>
-    <!-- .footer -->
+                <p class="text-center text-secondary display-2">
+                     © 2023 <a href="#" class="text-primary">Rebel Scibes</a> - Blog. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+ <!-- .footer -->
 
 
     <!-- masonry libray for horizontal grid -->
